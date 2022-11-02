@@ -16,7 +16,7 @@ public class Teacher {
     }
 
     public Teacher(Teacher teacher) {
-        this.firstName = firstName;
+        this.firstName = teacher.firstName;
         this.lastName = teacher.lastName;
         this.subjects = teacher.subjects;
     }
